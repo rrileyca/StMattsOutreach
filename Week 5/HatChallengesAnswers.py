@@ -65,3 +65,33 @@ for n in coords:
   unicorn.set_pixel(n,n,255,255,255)
 
 unicorn.show()
+
+#############################################
+################ Challenge 7 ################
+#############################################
+coords = [0,1,2,3,4,5,6,7]
+
+for n in coords:
+  unicorn.set_pixel(n,n,255,255,255)
+  unicorn.set_pixel((7 - n),n,255,255,255)
+
+unicorn.show()
+
+#############################################
+################ Challenge 8 ################
+#############################################
+counter = 0
+interval = 2
+maxTime = 30
+
+while(counter < maxTime):
+  print('Time currently at: ' + str(counter)) # A print just to show where we're at
+  x = randint(0,7)
+  y = randint(0,7)
+  unicorn.off()
+  unicorn.set_pixel(x,y,255,255,255)
+  unicorn.show()
+  time.sleep(interval)
+  counter += interval
+
+unicorn.off()

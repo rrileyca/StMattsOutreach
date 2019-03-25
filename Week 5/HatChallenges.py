@@ -32,3 +32,16 @@
 #############################################
 # Just like in Challenge 4, make a diagonal line.
 # But just like Challenge 5 - you can only write the "set_pixel" command ONCE in your code!
+
+#############################################
+################ Challenge 7 ################
+#############################################
+# Make two intersecting diagonal lines to form the shape of an "X".
+# You can only write the "set_pixel" command TWICE in your code!
+
+#############################################
+################ Challenge 8 ################
+#############################################
+# Light up a single light for 2 seconds, then randomly light up another light for 2 seconds.
+# Limit this action to only 30 seconds total!
+# You can only write the "set_pixel" command ONCE in your code!
