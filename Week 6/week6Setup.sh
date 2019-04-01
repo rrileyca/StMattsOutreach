@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd ~/Desktop
 mkdir Week6
 cd Week6
