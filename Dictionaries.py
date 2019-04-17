@@ -24,3 +24,15 @@ phonebook = {"John" : 6135555555,
              "Jill" : 6131234567,
              }
 print(phonebook)
+
+
+OttawaSenators = {"Anderson" : 31,
+                  "Tkachuk" : 7,
+                  "Ryan" : 9,
+                  "Ceci" : 5,
+                  "Chabot" : 72,
+                  "Duclair" : 10,
+                 }
+print(OttawaSenators)
+
+                  
