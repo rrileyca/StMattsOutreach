@@ -19,3 +19,8 @@
 
 #This is a bit easier to read, especially if the values are long.
 
+phonebook = {"John" : 6135555555,
+             "Jack" : 6135551111,
+             "Jill" : 6131234567,
+             }
+print(phonebook)
