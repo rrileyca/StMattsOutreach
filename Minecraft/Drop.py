@@ -6,5 +6,5 @@ mc = minecraft.Minecraft.create()
 
 playerPos = mc.player.getPos()
 mc.player.setPos(playerPos.x, playerPos.y + 50, playerPos.z)
-mc.postToChat("Dont look down")
-time.sleep(5)
+mc.postToChat("Dont look down!")
+time.sleep(8)
