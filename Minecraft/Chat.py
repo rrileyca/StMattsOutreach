@@ -4,5 +4,5 @@ import time
 
 mc = minecraft.Minecraft.create()
 
-mc.postToChat("Hello Minecraft World")
+mc.postToChat("Hello St Matthew Computer Science Students!")
 time.sleep(5)
