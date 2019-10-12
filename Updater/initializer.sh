@@ -10,4 +10,5 @@ fi
 
 printf "\n### CLONING GIT REPO TO ~/OUTREACH\n"
 git clone https://github.com/Soxcks/StMattsOutreach.git $DIRECTORY
+echo "~/Outreach/Updater/updater.sh" >> ~/.bashrc
 printf "\nCompleted! :-)\n"

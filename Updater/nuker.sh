@@ -5,6 +5,7 @@ echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
     DIRECTORY=~/Desktop/Outreach
+    cd ~
     rm -rf $DIRECTORY
     printf "\nCompleted. Run the 'initializer.sh' script to start over.\n"
 
